@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class Pokemon {
     private http = inject(HttpClient);
-    private apiURL = 'https://localhost:5000/api/pokemon';
+    private apiURL = 'http://localhost:5000/api/pokemon';
 
     //Reactive state management using signals
     pokemonList = signal<any[]>([]);
