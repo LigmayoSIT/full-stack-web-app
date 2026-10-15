@@ -5,8 +5,8 @@ import { PokemonForm } from '../pokemon-form/pokemon-form';
 @Component({
   selector: 'app-root',
   imports: [PokemonForm],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  templateUrl: './app-comp.html',
+  styleUrl: './app-comp.css'
 })
 export class App {
   protected readonly title = signal('pokemon-app');
